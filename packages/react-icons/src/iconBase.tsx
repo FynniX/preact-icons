@@ -31,6 +31,7 @@ export function GenIcon(data: IconTree) {
 
 export interface IconBaseProps extends React.SVGAttributes<SVGElement> {
   children?: React.ReactNode;
+  className?: string;
   size?: string | number;
   color?: string;
   title?: string;
